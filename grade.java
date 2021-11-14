@@ -31,11 +31,11 @@ class grade {
          if(total[j] >= 60 && total[j]< 70 ) {
               System.out.println("C grade");
                 }
-         if(total[j] >= 60 && total[j]< 70 ) {
-              System.out.println("C grade");
-                } 
          if(total[j] >= 50 && total[j]< 60 ) {
-              System.out.println("C grade");
+              System.out.println("D grade");
+                } 
+         if(total[j] >= 40 && total[j]< 50 ) {
+              System.out.println("E grade");
                 } 
         }
    }
