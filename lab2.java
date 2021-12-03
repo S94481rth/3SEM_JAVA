@@ -36,9 +36,10 @@ class Main{
         }
         double sgpa = total_prod / total_credits; 
         System.out.println(total_credits + " "+ total_prod + "  " + sgpa);
+        display(sgpa);
     }
     
-    void display(){
+    void display(double sgpa){
         System.out.println("Name :: " + name);
         System.out.println("USN :: " + usn);
         System.out.println("Scores :: "  );
@@ -52,6 +53,6 @@ class Main{
         Main student1 = new Main();
         student1.accept();
         student1.calculate();
-        student1.display();
+        
     }
 }
