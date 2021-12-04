@@ -30,10 +30,10 @@ public class Main
 public static void main(String[] args)
 {
 Rectangle r=new Rectangle();
-r.area(4,10);
+r.printArea(4,10);
 Circle c=new Circle();
-c.area(3,5);
+c.printArea(3,5);
 Triangle t=new Triangle();
-t.area(4,7);
+t.printArea(4,7);
 }
 }
