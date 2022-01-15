@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 class NegetiveAgeException extends Exception{
     NegetiveAgeException(){
         super();
@@ -31,8 +31,11 @@ public class Main{
     
     
     public static void main(String args[]){
-        int fatherAge = -10;
-        int sonAge = 20;
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter father's age :: ");
+        int fatherAge = obj.nextInt();
+        System.out.println("Enter son's age :: ");
+        int sonAge = obj.nextInt();
         try{
            checkAge(fatherAge, sonAge); 
         }
