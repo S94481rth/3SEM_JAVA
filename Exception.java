@@ -22,10 +22,10 @@ public class Main{
     
     static void checkAge(int F_Age, int S_Age) throws NegetiveAgeException,FatherYoungerThanSonException{
         if(F_Age < 0 || S_Age < 0){
-            throw new NegetiveAgeException();
+            throw new NegetiveAgeException(); //keyword "new" is pretty important here.. Missing it shows error.. Not sure WHY..
         }
         if(F_Age < S_Age){
-            throw new FatherYoungerThanSonException();
+            throw new FatherYoungerThanSonException(); //keyword "new" is pretty important here.. Missing it shows error.. Not sure WHY..
         }
     }
     
